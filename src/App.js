@@ -41,7 +41,7 @@ function App() {
     const newData = 
     pokemon.pokemon
     .filter(item => item.type.filter(item => item == (pokemonType == undefined ? item.type : pokemonType)) == pokemonType)
-    .filter(item => item.weaknesses.filter((item) => item == (pokemonWeakness == '' ? item.type : pokemonWeakness)) == pokemonWeakness) 
+    .filter(item => item.weaknesses.filter((item) => item == (pokemonWeakness == '' ? item.type : pokemonWeakness)) == pokemonWeakness)
 
     if(pokemonType){
       pokemon.pokemon 
